@@ -1,0 +1,9 @@
+const kelvin = 0; //variable kelvin set.
+const celsius = kelvin-273; //celsius is equal to kelvin minus 273.
+let fahrenheit = celsius*(9/5)+32; //fahrenheit is calaculates using the equation.
+fahrenheit = Math.floor(fahrenheit); //decimal rounded using math.floor method.
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`);
+console.log(`The temperature is ${kelvin} degrees Kelvin`);
+console.log(`The temperature is ${celsius} degrees Celsius`);
+let Newton = Math.floor(celsius*(33/100));
+console.log(`The temeperature is ${Newton} degrees Newton`);
